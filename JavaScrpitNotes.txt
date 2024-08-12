@@ -1,0 +1,10 @@
+React-JS Notes 
+1)It is JavaScrpit Libary 
+2)It create Rich user Interfaces 
+3)it create SPA(SIngle Page Application)
+4)it is Not Farmework 
+
+
+
+
+

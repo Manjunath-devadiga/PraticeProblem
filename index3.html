@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick=abc()>Click</button>
+
+   <h1>Array Methods</h1> 
+    <script>
+
+        
+    function abc(){
+        alert("hii")
+    }
+    console.log()
+   
+//     let names  = ["Manjunath","Rohan","Shekar","Omkar", "Rani"];
+
+   
+//    names[1]="Rushi"
+
+//   console.log(names[1]);
+//   document.write(names)
+
+// let names = new Array("Manjunath","Rohan","Shekar","Omkar", "Rani")
+
+// console.log(names)
+
+
+    // let names  = ["Manjunath","Rohan","Shekar","Omkar", "Rani","Rushi"];
+
+    // document.write(names)
+    
+    //  names.splice(1,2,"devadiga","Shetty")
+
+    // console.log(names)
+
+        // let names  = ["Manjunath","Rohan","Shekar","Omkar", "Rani","Rushi"];
+
+        // let  a  = "hello World";
+
+        //  console.log(Array.isArray(names))
+
+
+        // let names = "This is My Frist batch of My Class";
+
+ 
+
+    //    let names  = ["Manjunath","Rohan","Shekar","Omkar", "Rani","Rushi"];
+        
+    //    let booknames = ["Hindi","English", "Marathi", "Kannda", "Math"]
+    //    let Books1 = ["Hindi","English", "Marathi", "Kannda", "Math"]
+
+    // let booknames = [
+    //      ["Hindi", "500"],
+    //      ["English", "400"],
+    //      ["Marthi", "300"]
+    // ]
+
+
+
+    //    let books = names.concat(booknames,Books1)
+
+    //    console.log(booknames[1][1])
+  
+
+        //    let names  = ["Manjunath","Rohan","Shekar","Omkar", "Rani","Rushi"];
+
+        //    let nameslenth = names.length
+
+        //    for(i=0;  i < nameslenth ; i++ ){
+        //               console.log(`Elements ${i} is ${names[i]}`)
+        //    }
+
+
+//         let str = "This Is My Frist Batch In React"
+
+//          let str2 = str.split(" ").map(function(word){
+//                return  word.split("").reverse().join("")
+//          })
+
+//    console.log(str2.join("  "))
+
+
+        //  console.log(str2)
+
+
+
+//  let array = ["Manjunath", "Apple", "Omkar", "rohan", "mango", "grapes","Water","waaa"]
+
+//  let array1 = array.filter((val)=>{
+//            return val.length >= 5;
+//  })
+
+//  console.log(array1)
+
+
+// const employees = [
+//   { name: 'Alice', department: 'Engineering', age: 30 },
+//   { name: 'Bob', department: 'HR', age: 25 },
+//   { name: 'Charlie', department: 'Engineering', age: 35 },
+//   { name: 'Dave', department: 'Marketing', age: 22 }
+// ];
+
+
+// let array = employees.filter((val)=>{
+//        return val.department === "Engineering" &&  val.age >= 30;
+// })
+
+// console.log(array)
+
+
+
+
+
+// const arrays = [
+//     ["Manjunath", "Shekar", "Charlie"],
+//     ["Apple", "Banana", "Grapes"],
+//     ["Javascrpit", "Python", "Java"]
+// ]
+
+// const arrays1 = arrays.filter((val)=>{
+//       return val.includes("Manjunath")
+// })
+
+// console.log(arrays1)
+
+// const numbers = [1, 2, 2, 3, 4, 4, 5];
+
+// Filter out unique values
+// const uniqueNumbers = numbers.filter((number, index, array) => 
+//   array.indexOf(number) === index
+// );
+  
+// console.log(uniqueNumbers)
+
+// ?    
+
+
+// const teams = [
+//   { name: 'Team A', members: [{ name: 'John', role: 'Developer' }, { name: 'Jane', role: 'Manager' }] },
+//   { name: 'Team B', members: [{ name: 'Mike', role: 'Developer' }, { name: 'Mary', role: 'Developer' }] },
+//   { name: 'Team C', members: [{ name: 'Alice', role: 'Manager' }, { name: 'Bob', role: 'Developer' }] }
+// ];
+
+// Filter out teams that have at least one member who is a Manager and at least one member who is a Developer
+// const teamsWithManagersAndDevelopers = teams.filter(team => 
+//   team.members.some(member => member.role === 'Manager') && 
+//   team.members.some(member => member.role === 'Developer')
+// );
+
+// console.log(teamsWithManagersAndDevelopers); 
+// Output: [{ name: 'Team A', members: [{ name: 'John', role: 'Developer' }, { name: 'Jane', role: 'Manager' }] }, { name: 'Team C', members: [{ name: 'Alice', role: 'Manager' }, { name: 'Bob', role: 'Developer' }] }]
+
+const keyValueStrings = ['name:John', 'age:30', 'city:New York'];
+
+// Convert to an array of objects
+// const keyValuePairs = keyValueStrings.map(str => {
+//   const [key, value] = str.split(':');
+//   return { [key]: value };
+// });
+
+// console.log(keyValuePairs); 
+// Output: [{ name: 'John' }, { age: '30' }, { city: 'New York' }]
+
+
+
+
+
+// let a = [78,20,31,87,52,44,55,20,20,10]
+
+// let b = a.some((val)=>{
+//      return val <=15;
+// })
+
+
+
+// console.log(b)
+
+
+
+
+
+    // function arrayidentify(elm){
+    //     return Array.isArray(elm)
+    // }
+    // console.log(arrayidentify([]))
+
+
+    // var a = 12.2;
+    // if(a%1==0){
+    //      console.log("It IS Integer")
+    // }else{
+    //       console.log("Not An Integers")
+    // }   
+
+  
+    // function abc(a){
+    //   return a.concat(a)
+    // }
+
+    // console.log(abc([1,2,3,4,5,6 ]))
+
+
+// let a = 12;
+ 
+// let b = Number(a.toString().split('').reverse().join(''))
+
+// console.log(typeof b)
+
+
+// let arry = 'MY Name is manjunath devadiga'
+
+// let arry1 = arry.split(" ").map((val)=>{
+//       return val.split("").reverse().join('')
+// })
+
+// console.log(arry1.join(' '))
+   
+      
+
+//         let str = "This Is My Frist Batch In React"
+
+//          let str2 = str.split(" ").map(function(word){
+//                return  word.split("").reverse().join("")
+//          })
+
+//    console.log(str2.join(' '))
+
+
+//          console.log(str2)
+
+
+// function abd(a){
+//     return a.concat(a)
+// }
+
+// console.log(abd([1,2,3,4,5]))
+
+// function occ(a){
+  
+//     let obj = {}
+
+//     if(obj.hasOwnProperty(a)){
+         
+//     }
+
+     
+// }
+
+// console.log("Apple")
+
+
+// let a ={}
+
+// console.log(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        // let a = names.indexOf("Shekar");
+        // console.log(a);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>From Validation </title>
+    </head>
+    <body>
+
+<!-- 
+        <input type="text" id="myinput">
+
+        <script>
+       var a = document.getElementById("myinput")
+
+       a.addEventListener("focus", myFucusfunction)
+       a.addEventListener("blur", myblurfunction)
+       a.addEventListener("change", function(){
+               console.log(this.value);
+       })
+
+       function myFucusfunction(){
+            a.style.background = "yellow";
+       }
+
+        function myblurfunction(){
+              a.style.background = "white";
+        }
+        </script> -->
+
+<!-- 
+// Form validation -->
+
+
+
+<script>
+  
+  // function validate(){
+     
+  //   var a = document.getElementById("n1").value;
+  //   var b = document.getElementById("n2").value;
+  //   var c = document.getElementById("n3").value;
+  //   var d = document.getElementById("n4").value
+
+
+  //   if(a == "" || b == "" || c == "" || d == ""){
+  //       alert("This Field Is Required ")
+  //      return false;
+  //   }
+    // }else if(b.length < 10 || b.length > 10){
+    //        alert("You Are Allowed To Enter Only 10 Digit Number")
+    //        return false;
+    // }else if(isNaN(b)){
+    //        alert("Only Numbers Are Allowed ! Please Enter 10 digit Number")
+    //        return false;
+    // }else if(c!=d){
+    //        alert("Please Enter Same Password")
+    //        return false;
+    // }
+
+    else{
+         return true;
+    }
+  }
+
+</script>
+
+<form onsubmit="return validate()" action="index.html">
+
+    <h2>Form Validation</h2>
+    <hr>
+
+ User ID:<input type="text" id="n1"><br> <br>
+ 
+ Contact:<input type="text" id="n2"><br> <br>
+ 
+ Password:<input type="text" id="n3"><br> <br>
+ 
+ Confrim Password:<input type="text" id="n4"><br> <br>   
+
+ <input type="submit" value="Submit Your Data">
+
+</form>
+
+
+
+    </body>
+    </html> 

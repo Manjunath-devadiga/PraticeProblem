@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pratice JavaScrpit</h1>
+    <script>
+//          1. Check if a String is a Palindrome
+// Problem
+// Write a function to check if a given string is a palindrome.
+
+// function isPalindrome(str) {  
+// //   const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+// //   const reversedStr = cleanedStr.split('').reverse().join('');
+// //   return cleanedStr === reversedStr;
+
+// const reversedStr = str.split("").reverse().join('')
+//     return reversedStr === str;
+// }
+
+// // Test the function
+// console.log(isPalindrome('poop')); // Output: true
+// console.log(isPalindrome('race a car')); // Output: false
+
+
+// 2. FizzBuzz
+// Problem
+// Write a function that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
+
+// function fizzBuzz() {
+//   for (let i = 1; i <= 100;   i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log('FizzBuzz');
+//     } else if (i % 3 === 0) {
+//       console.log('Fizz');
+//     } else if (i % 5 === 0) {
+//       console.log('Buzz');
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// // Run the function
+// fizzBuzz();
+
+
+// function fizzBuzz(){
+//      for(let i = 1; i<=100; i++){
+//              if(i % 3 == 0 && i % 5 == 0){
+//                      console.log("Fizzbuz");
+//              }else if(i % 3 == 0){
+//                    console.log("Fizz")
+//              }else if(i % 5 == 0){
+//                  console.log("Buzz")
+//              }
+//              else{
+//                  console.log(i)
+//              }
+
+//      }
+// }
+// fizzBuzz()
+
+
+// 3. Find the Largest Number in an Array
+// Problem
+// Write a function that takes an array of numbers and returns the largest number.
+
+// function findLargestNumber(arr) {
+//   return Math.max(...arr);
+// }
+
+// // Test the function
+// console.log(findLargestNumber([1, 5, 3, 9, 2])); // Output: 9
+// console.log(findLargestNumber([-10, -5, -3, -1])); // Output: -1
+
+
+
+function abc(name, ...args){
+       document.write(`${name}`)
+       
+       let sum = 0;
+       for(i in args){
+           sum +=args[1];
+       }
+
+       document.write(sum)
+}
+
+
+abc("manjunath",1,2,1,2,2,3)   .
+
+
+
+
+
+    </script>
+</body>
+</html>

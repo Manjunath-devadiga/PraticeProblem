@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+</head>
+<body>
+    <h1>Banking System Simulation</h1>
+    <div>
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+        <button onclick="checkBalance()">Check Balance</button>
+    </div>
+    <div id="output"></div>
+
+    <script>
+        let balance = 0;
+
+        function displayMessage(message) {
+            const outputDiv = document.getElementById("output");    
+            outputDiv.innerHTML = message;
+        }
+
+        function deposit() {
+            const amount = parseFloat(prompt("Enter amount to deposit: "));
+            if (amount > 0) {
+                balance += amount;
+                displayMessage(`$${amount.toFixed(2)} has been deposited. Your new balance is $${balance.toFixed(2)}.`);
+            } else {
+                displayMessage("Invalid amount. Please enter a positive number.");
+            }
+        }
+
+        function withdraw() {
+            const amount = parseFloat(prompt("Enter amount to withdraw: "));
+            if (amount > 0) {
+                if (amount <= balance) {
+                    balance -= amount;
+                    displayMessage(`$${amount.toFixed(2)} has been withdrawn. Your new balance is $${balance.toFixed(2)}.`);
+                } else {
+                    displayMessage("Insufficient funds. Cannot withdraw more than the available balance.");
+                }
+            } else {
+                displayMessage("Invalid amount. Please enter a positive number.");
+            }
+        }
+
+        function checkBalance() {
+            displayMessage(`Your current balance is $${balance.toFixed(2)}.`);
+        }
+    </script>
+</body>
+</html>
